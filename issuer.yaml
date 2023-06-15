@@ -5,7 +5,7 @@ metadata:
 spec:
   acme:
     # Remember to update this if you use this manifest to obtain real certificates :)
-    email: m.akomolafe@parallelscore.com
+    email: ejijamz4real@gmail.com
     # server: https://acme-staging-v02.api.letsencrypt.org/directory
     # To use the production environment, use the following line instead:
     server: https://acme-v02.api.letsencrypt.org/directory
