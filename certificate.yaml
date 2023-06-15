@@ -1,0 +1,16 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: amplify-lafia-cert
+spec:
+  secretName: amplify-lafia-cert-secret
+  dnsNames:
+  - spark.data.lafia.io 
+  - neo4j.data.lafia.io
+  - lakefs.data.lafia.io
+  - airflow.data.lafia.io
+  - superset.data.lafia.io
+  - keycloak.data.lafia.io
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer
